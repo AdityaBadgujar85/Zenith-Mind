@@ -25,4 +25,4 @@ Zenith Mind is an AI-powered application designed to support mental health and w
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/zenith-mind.git](https://github.com/AdityaBadgujar85/Zenith-Mind.git
+   git clone https://github.com/AdityaBadgujar85/Zenith-Mind.git
