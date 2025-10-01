@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Unknown"
+  },
+  {
+    "id": 2,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 3,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 4,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 5,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 6,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 7,
+    "text": "Great things never come from comfort zones.",
+    "author": "Unknown"
+  },
+  {
+    "id": 8,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 9,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 10,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 11,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 12,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 13,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Unknown"
+  },
+  {
+    "id": 14,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 15,
+    "text": "Little things make big days.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 16,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 17,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 18,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 19,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Unknown"
+  },
+  {
+    "id": 20,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 21,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 22,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 23,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 24,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 25,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Unknown"
+  },
+  {
+    "id": 26,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 27,
+    "text": "Great things never come from comfort zones.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 28,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 29,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 30,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 31,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Unknown"
+  },
+  {
+    "id": 32,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 33,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 34,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 35,
+    "text": "Little things make big days.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 36,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 37,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Unknown"
+  },
+  {
+    "id": 38,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 39,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 40,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 41,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 42,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 43,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Unknown"
+  },
+  {
+    "id": 44,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 45,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 46,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 47,
+    "text": "Great things never come from comfort zones.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 48,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 49,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Unknown"
+  },
+  {
+    "id": 50,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 51,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 52,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 53,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 54,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 55,
+    "text": "Little things make big days.",
+    "author": "Unknown"
+  },
+  {
+    "id": 56,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 57,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 58,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 59,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 60,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 61,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Unknown"
+  },
+  {
+    "id": 62,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 63,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 64,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 65,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 66,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 67,
+    "text": "Great things never come from comfort zones.",
+    "author": "Unknown"
+  },
+  {
+    "id": 68,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 69,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 70,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 71,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 72,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 73,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Unknown"
+  },
+  {
+    "id": 74,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 75,
+    "text": "Little things make big days.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 76,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 77,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 78,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 79,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Unknown"
+  },
+  {
+    "id": 80,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 81,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 82,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 83,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 84,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 85,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Unknown"
+  },
+  {
+    "id": 86,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 87,
+    "text": "Great things never come from comfort zones.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 88,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 89,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 90,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 91,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Unknown"
+  },
+  {
+    "id": 92,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 93,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 94,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 95,
+    "text": "Little things make big days.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 96,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 97,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Unknown"
+  },
+  {
+    "id": 98,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 99,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 100,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 101,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 102,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 103,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Unknown"
+  },
+  {
+    "id": 104,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 105,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 106,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 107,
+    "text": "Great things never come from comfort zones.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 108,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 109,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Unknown"
+  },
+  {
+    "id": 110,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 111,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 112,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 113,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 114,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 115,
+    "text": "Little things make big days.",
+    "author": "Unknown"
+  },
+  {
+    "id": 116,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 117,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 118,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 119,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 120,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 121,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Unknown"
+  },
+  {
+    "id": 122,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 123,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 124,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 125,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 126,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 127,
+    "text": "Great things never come from comfort zones.",
+    "author": "Unknown"
+  },
+  {
+    "id": 128,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 129,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 130,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 131,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 132,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 133,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Unknown"
+  },
+  {
+    "id": 134,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 135,
+    "text": "Little things make big days.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 136,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 137,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 138,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 139,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Unknown"
+  },
+  {
+    "id": 140,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 141,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 142,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 143,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 144,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 145,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Unknown"
+  },
+  {
+    "id": 146,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 147,
+    "text": "Great things never come from comfort zones.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 148,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 149,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 150,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 151,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Unknown"
+  },
+  {
+    "id": 152,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 153,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 154,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 155,
+    "text": "Little things make big days.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 156,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 157,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Unknown"
+  },
+  {
+    "id": 158,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 159,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 160,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 161,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 162,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 163,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Unknown"
+  },
+  {
+    "id": 164,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 165,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 166,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 167,
+    "text": "Great things never come from comfort zones.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 168,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 169,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Unknown"
+  },
+  {
+    "id": 170,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 171,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 172,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 173,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 174,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 175,
+    "text": "Little things make big days.",
+    "author": "Unknown"
+  },
+  {
+    "id": 176,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 177,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 178,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 179,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 180,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 181,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Unknown"
+  },
+  {
+    "id": 182,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 183,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 184,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 185,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 186,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 187,
+    "text": "Great things never come from comfort zones.",
+    "author": "Unknown"
+  },
+  {
+    "id": 188,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 189,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 190,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 191,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 192,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 193,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Unknown"
+  },
+  {
+    "id": 194,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 195,
+    "text": "Little things make big days.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 196,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 197,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 198,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 199,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Unknown"
+  },
+  {
+    "id": 200,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 201,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 202,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 203,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 204,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 205,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Unknown"
+  },
+  {
+    "id": 206,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 207,
+    "text": "Great things never come from comfort zones.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 208,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 209,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 210,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 211,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Unknown"
+  },
+  {
+    "id": 212,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 213,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 214,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 215,
+    "text": "Little things make big days.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 216,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 217,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Unknown"
+  },
+  {
+    "id": 218,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 219,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 220,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 221,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 222,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 223,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Unknown"
+  },
+  {
+    "id": 224,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 225,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 226,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 227,
+    "text": "Great things never come from comfort zones.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 228,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 229,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Unknown"
+  },
+  {
+    "id": 230,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 231,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 232,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 233,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 234,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 235,
+    "text": "Little things make big days.",
+    "author": "Unknown"
+  },
+  {
+    "id": 236,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 237,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 238,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 239,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 240,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 241,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Unknown"
+  },
+  {
+    "id": 242,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 243,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 244,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 245,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 246,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 247,
+    "text": "Great things never come from comfort zones.",
+    "author": "Unknown"
+  },
+  {
+    "id": 248,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 249,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 250,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 251,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 252,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 253,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Unknown"
+  },
+  {
+    "id": 254,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 255,
+    "text": "Little things make big days.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 256,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 257,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 258,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 259,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Unknown"
+  },
+  {
+    "id": 260,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 261,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 262,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 263,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 264,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 265,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Unknown"
+  },
+  {
+    "id": 266,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 267,
+    "text": "Great things never come from comfort zones.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 268,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 269,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 270,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 271,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Unknown"
+  },
+  {
+    "id": 272,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 273,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 274,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 275,
+    "text": "Little things make big days.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 276,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 277,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Unknown"
+  },
+  {
+    "id": 278,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 279,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 280,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 281,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 282,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 283,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Unknown"
+  },
+  {
+    "id": 284,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 285,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 286,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 287,
+    "text": "Great things never come from comfort zones.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 288,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 289,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Unknown"
+  },
+  {
+    "id": 290,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 291,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 292,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 293,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 294,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 295,
+    "text": "Little things make big days.",
+    "author": "Unknown"
+  },
+  {
+    "id": 296,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 297,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 298,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 299,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 300,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 301,
+    "text": "The best way to get started is to quit talking and begin doing.",
+    "author": "Unknown"
+  },
+  {
+    "id": 302,
+    "text": "Don’t let yesterday take up too much of today.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 303,
+    "text": "It’s not whether you get knocked down, it’s whether you get up.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 304,
+    "text": "Success is not in what you have, but who you are.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 305,
+    "text": "Your limitation—it’s only your imagination.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 306,
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 307,
+    "text": "Great things never come from comfort zones.",
+    "author": "Unknown"
+  },
+  {
+    "id": 308,
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 309,
+    "text": "Success doesn’t just find you. You have to go out and get it.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 310,
+    "text": "The harder you work for something, the greater you’ll feel when you achieve it.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 311,
+    "text": "Dream bigger. Do bigger.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 312,
+    "text": "Don’t stop when you’re tired. Stop when you’re done.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 313,
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Unknown"
+  },
+  {
+    "id": 314,
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Walt Disney"
+  },
+  {
+    "id": 315,
+    "text": "Little things make big days.",
+    "author": "Will Rogers"
+  },
+  {
+    "id": 316,
+    "text": "It’s going to be hard, but hard does not mean impossible.",
+    "author": "Vince Lombardi"
+  },
+  {
+    "id": 317,
+    "text": "Don’t wait for opportunity. Create it.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 318,
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 319,
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Unknown"
+  },
+  {
+    "id": 320,
+    "text": "Dream it. Believe it. Build it.",
+    "author": "Walt Disney"
+  }
+]

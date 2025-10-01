@@ -1,0 +1,21 @@
+.mainContainer{
+    margin-top: 5rem;
+}
+.imageDesign{
+    width: 90%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.carDesign{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.cardText{
+    position: relative;
+    bottom: 3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: serif,garamond;
+}

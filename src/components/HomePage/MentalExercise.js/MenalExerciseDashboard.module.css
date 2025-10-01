@@ -1,0 +1,76 @@
+/* MenalExerciseDashboard.module.css */
+
+/* Each exercise card container */
+.exreciseCard {
+  margin: 1rem 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card design box */
+.exreciseCardDesign {
+  display: flex;
+  flex-direction: row; /* Row layout: text left, image right */
+  align-items: center;
+  justify-content: space-between; /* Pushes content apart */
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.exreciseCardDesign:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Left info (title + description) */
+.exreciseInfo {
+  flex: 1;                 /* Take available space */
+  text-align: left;        /* Force text to left */
+}
+
+.exreciseInfo h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.exreciseInfo p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+}
+
+/* Right side image */
+.exreciseImg {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.exreciseCardDesign:hover .exreciseImg {
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .exreciseCardDesign {
+    flex-direction: row;   /* Still keep row layout */
+    align-items: flex-start;
+  }
+
+  .exreciseInfo {
+    text-align: left;     /* Force left alignment on mobile too */
+    margin-bottom: 0;
+  }
+
+  .exreciseImg {
+    width: 90px;
+    height: 90px;
+  }
+}

@@ -1,0 +1,16 @@
+.Navbar-Design{
+     padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.Navbar-Brand{
+  color:black;
+    font-weight: bold;
+  font-family: story script;
+}
+.Navlink-text{
+    font-family: serif,garamond;
+    font-size: large;
+    font-weight: bold;
+}

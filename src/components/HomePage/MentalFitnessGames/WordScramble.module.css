@@ -1,0 +1,161 @@
+/*
+ * Base styles for the main container.
+ * Uses a deep, inviting gradient for the background.
+ */
+.mainContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1f1f3f 0%, #303060 100%);
+  color: #fff;
+  padding: 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+/*
+ * Styles for the header section with score and streak.
+ * Adds a modern, clear divide at the top of the game card.
+ */
+.header {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Styles for the main game card, emphasizing a glassmorphism effect.
+ * This makes the card look like frosted glass, floating on the background.
+ */
+.gameCard {
+  width: 100%;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+  padding: 2.5rem;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  animation: fadeInScale 0.8s ease-out;
+}
+
+/* Adds a subtle hover effect to the card for better user feedback */
+.gameCard:hover {
+  transform: translateY(-5px);
+}
+
+/*
+ * Keyframes for the card's entry animation.
+ */
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/*
+ * Styles for the scrambled word, making it the focal point.
+ * The vibrant color and letter spacing draw the eye.
+ */
+.scrambledWord {
+  font-size: clamp(2rem, 8vw, 4rem);
+  font-weight: 800;
+  letter-spacing: 0.3rem;
+  color: #7fffd4;
+  text-shadow: 0 0 10px rgba(127, 255, 212, 0.4);
+  margin-bottom: 2rem;
+  word-wrap: break-word;
+  transition: transform 0.5s ease-out;
+}
+
+/*
+ * Styles for the guess input field.
+ * Integrates the input with the glassmorphism theme.
+ */
+.guessInput {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 0.75rem 1.25rem;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.guessInput::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.guessInput:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: #7fffd4;
+  box-shadow: 0 0 0 0.25rem rgba(127, 255, 212, 0.25);
+  outline: none;
+}
+
+/* Custom styles for the Bootstrap buttons to make them pop. */
+.btn-success,
+.btn-info {
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.75rem 2rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: none;
+}
+
+.btn-success {
+  background: linear-gradient(45deg, #28a745, #218838);
+  box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+}
+
+.btn-info {
+  background: linear-gradient(45deg, #17a2b8, #138496);
+  box-shadow: 0 4px 15px rgba(23, 162, 184, 0.3);
+}
+
+.btn-success:hover,
+.btn-info:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-success:disabled,
+.btn-info:disabled {
+  transform: none;
+  opacity: 0.6;
+}
+
+/* Styles for the alerts to match the frosted glass theme. */
+.alert {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* Media queries for better responsiveness on smaller screens */
+@media (max-width: 576px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+  }
+  .gameCard {
+    padding: 1.5rem;
+  }
+}
