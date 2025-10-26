@@ -1,0 +1,134 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 16px;
+  color: #fff;
+  background: radial-gradient(1200px 600px at 10% 10%, #3a2283 0%, transparent 60%),
+              radial-gradient(1000px 800px at 90% 20%, #0ea5e9 0%, transparent 55%),
+              linear-gradient(135deg, #0f0c29, #24243e 60%, #0b1021);
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* Top bar */
+.headerBar {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 0 18px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.headerBar h2 {
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-shadow: 0 6px 30px rgba(14, 165, 233, 0.2);
+}
+
+.badgeRow {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* Glass card */
+.card {
+  width: 100%;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 20px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  padding: 28px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.45);
+}
+
+.problem {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #7fffd4;
+  text-shadow: 0 0 12px rgba(127, 255, 212, 0.36);
+  margin-bottom: 18px;
+}
+
+.input {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  border: 1px solid rgba(255, 255, 255, 0.28) !important;
+  color: #fff !important;
+  text-align: center;
+  font-size: 1.35rem !important;
+  font-weight: 700 !important;
+  height: 60px !important;
+  border-radius: 12px !important;
+  transition: all 0.25s ease !important;
+}
+
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.input:focus {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border-color: #7fffd4 !important;
+  box-shadow: 0 0 0 0.25rem rgba(127, 255, 212, 0.25) !important;
+  outline: none;
+}
+
+/* Alerts styled to match glass theme */
+.alert {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  border: 1px solid rgba(255, 255, 255, 0.28) !important;
+  color: #fff !important;
+  border-radius: 12px !important;
+}
+
+/* Leaderboard header */
+.lbHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Table tweaks */
+.table {
+  --bs-table-bg: transparent;
+  --bs-table-color: #fff;
+  --bs-table-striped-bg: rgba(255,255,255,0.06);
+  --bs-table-hover-bg: rgba(255,255,255,0.10);
+  border-color: rgba(255,255,255,0.2) !important;
+}
+
+.table thead th {
+  color: #a7f3d0;
+  border-bottom: 1px solid rgba(255,255,255,0.25) !important;
+  font-weight: 700;
+}
+
+.table td, .table th {
+  border-color: rgba(255,255,255,0.2) !important;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .headerBar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .card {
+    padding: 22px;
+  }
+}

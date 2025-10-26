@@ -1,0 +1,290 @@
+/***************************************
+ * WordScramble.module.css — polished UI
+ ***************************************/
+
+/* -------- Theme tokens -------- */
+:root {
+  --bg1: #191a2b;
+  --bg2: #2b2c4a;
+  --card-glass: rgba(255, 255, 255, 0.08);
+  --card-stroke: rgba(255, 255, 255, 0.18);
+  --card-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+
+  --text: #f3f6ff;
+  --muted: rgba(255, 255, 255, 0.65);
+
+  --accent: #7fffd4; /* aquamarine */
+  --accent-2: #8ac6ff; /* sky */
+  --accent-3: #c9a5ff; /* lilac */
+
+  --success-1: #28a745;
+  --success-2: #1e8a39;
+  --info-1: #17a2b8;
+  --info-2: #12869b;
+
+  --ring: rgba(127, 255, 212, 0.35);
+  --ring-strong: rgba(127, 255, 212, 0.55);
+
+  --radius-lg: 22px;
+  --radius-md: 14px;
+
+  --blur-card: 18px;
+  --transition: 220ms cubic-bezier(.2,.8,.2,1);
+}
+
+/* -------- Page container -------- */
+.mainContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text);
+  padding: 24px clamp(16px, 3vw, 32px);
+  background: radial-gradient(1200px 700px at 20% 10%, #2a2b4a 0%, transparent 55%),
+              radial-gradient(900px 600px at 80% 0%, #34346a 0%, transparent 50%),
+              linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+}
+
+/* -------- Header strip -------- */
+.header {
+  width: 100%;
+  max-width: 760px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 0 16px;
+  margin-bottom: 18px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.12);
+}
+
+.header h4 {
+  letter-spacing: .3px;
+  margin: 0;
+}
+
+/* -------- Card (glass) -------- */
+.gameCard {
+  width: 100%;
+  max-width: 760px;
+  background: linear-gradient(180deg, rgba(255,255,255,.12) 0%, rgba(255,255,255,.06) 100%);
+  background-color: var(--card-glass);
+  border: 1px solid var(--card-stroke);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--card-shadow);
+  backdrop-filter: blur(var(--blur-card));
+  -webkit-backdrop-filter: blur(var(--blur-card));
+  padding: clamp(20px, 3vw, 34px);
+  text-align: center;
+  position: relative;
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+  animation: fadeInUp .6s ease both;
+}
+
+.gameCard::after {
+  /* neon top border glow */
+  content: "";
+  position: absolute;
+  inset: -1px -1px auto -1px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  border-radius: var(--radius-lg);
+  filter: blur(0.5px);
+  opacity: .6;
+}
+
+.gameCard:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.24);
+  box-shadow: 0 26px 60px rgba(0, 0, 0, 0.45);
+}
+
+/* Entry animation */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* -------- Scrambled word -------- */
+.scrambledWord {
+  font-size: clamp(2rem, 6.5vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: .32rem;
+  color: var(--accent);
+  text-shadow: 0 0 20px rgba(127, 255, 212, 0.35), 0 0 6px rgba(127, 255, 212, 0.25);
+  margin-bottom: 1.3rem;
+  word-break: break-word;
+}
+
+/* -------- Input -------- */
+.guessInput {
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: var(--radius-md);
+  padding: 0.9rem 1.1rem;
+  font-size: 1.1rem;
+  color: var(--text);
+  transition: border-color var(--transition), box-shadow var(--transition), background-color var(--transition), transform var(--transition);
+}
+
+.guessInput::placeholder {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.guessInput:focus {
+  background-color: rgba(255, 255, 255, 0.16);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 0.35rem var(--ring);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+/* -------- Alerts (global bootstrap) -------- */
+:global(.alert) {
+  background: linear-gradient(180deg, rgba(255,255,255,.14) 0%, rgba(255,255,255,.08) 100%) !important;
+  border: 1px solid rgba(255,255,255,.25) !important;
+  color: var(--text) !important;
+  border-radius: var(--radius-md) !important;
+}
+
+/* -------- Buttons (global bootstrap) -------- */
+:global(.btn) {
+  border-radius: 12px !important;
+  font-weight: 600 !important;
+  padding: 0.78rem 1.4rem !important;
+  border: none !important;
+  transition: transform var(--transition), box-shadow var(--transition) !important;
+}
+
+:global(.btn:disabled) {
+  opacity: .65 !important;
+  transform: none !important;
+}
+
+/* Success */
+:global(.btn-success) {
+  background: linear-gradient(45deg, var(--success-1), var(--success-2)) !important;
+  box-shadow: 0 6px 20px rgba(40, 167, 69, 0.25) !important;
+}
+:global(.btn-success:hover) {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 12px 26px rgba(40, 167, 69, 0.35) !important;
+}
+
+/* Info */
+:global(.btn-info) {
+  background: linear-gradient(45deg, var(--info-1), var(--info-2)) !important;
+  box-shadow: 0 6px 20px rgba(23, 162, 184, 0.25) !important;
+}
+:global(.btn-info:hover) {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 12px 26px rgba(23, 162, 184, 0.35) !important;
+}
+
+/* Outline secondary (Clear button) */
+:global(.btn-outline-secondary) {
+  color: var(--text) !important;
+  border: 1px solid rgba(255,255,255,.28) !important;
+  background: rgba(255,255,255,.06) !important;
+}
+:global(.btn-outline-secondary:hover) {
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 0 0.3rem var(--ring) !important;
+}
+
+/* Outline primary (Header small actions) */
+:global(.btn-outline-primary) {
+  color: var(--text) !important;
+  border: 1px solid rgba(255,255,255,.28) !important;
+  background: rgba(255,255,255,.04) !important;
+}
+:global(.btn-outline-primary:hover) {
+  border-color: var(--accent-2) !important;
+  box-shadow: 0 0 0 0.3rem rgba(138,198,255,.25) !important;
+}
+
+/* -------- Badges (global) -------- */
+:global(.badge) {
+  border-radius: 999px !important;
+  padding: .5rem .8rem !important;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.18);
+}
+:global(.badge.bg-success) {
+  background: linear-gradient(180deg, rgba(46, 204, 113, .9), rgba(39, 174, 96, .9)) !important;
+}
+:global(.badge.bg-warning) {
+  background: linear-gradient(180deg, rgba(255, 193, 7, .95), rgba(230, 164, 4, .95)) !important;
+  color: #1b1b1b !important;
+}
+:global(.badge.bg-secondary) {
+  background: linear-gradient(180deg, rgba(140, 150, 170, .85), rgba(118, 128, 148, .85)) !important;
+}
+
+/* -------- Table (leaderboard) -------- */
+:global(.table) {
+  color: var(--text) !important;
+  margin-bottom: 0 !important;
+  border-color: rgba(255,255,255,.12) !important;
+}
+
+:global(.table thead th) {
+  border-bottom: 1px solid rgba(255,255,255,.18) !important;
+  color: var(--muted) !important;
+  font-weight: 700 !important;
+  letter-spacing: .4px;
+  background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.03));
+}
+
+:global(.table-striped > tbody > tr:nth-of-type(odd) > *) {
+  background: rgba(255,255,255,.04) !important;
+}
+
+:global(.table-hover > tbody > tr:hover > *) {
+  background: rgba(127,255,212,.08) !important;
+}
+
+:global(.table td), :global(.table th) {
+  border-color: rgba(255,255,255,.12) !important;
+  vertical-align: middle !important;
+}
+
+/* -------- Modal -------- */
+:global(.modal-content) {
+  background: linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.06)) !important;
+  border: 1px solid rgba(255,255,255,.22) !important;
+  color: var(--text) !important;
+  border-radius: 18px !important;
+  backdrop-filter: blur(14px);
+}
+:global(.modal-header) {
+  border-bottom: 1px solid rgba(255,255,255,.16) !important;
+}
+:global(.modal-footer) {
+  border-top: 1px solid rgba(255,255,255,.12) !important;
+}
+
+/* -------- Responsive tweaks -------- */
+@media (max-width: 576px) {
+  .header {
+    max-width: 100%;
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+    padding-bottom: 18px;
+  }
+  .gameCard {
+    padding: 18px;
+  }
+}
+
+/* Optional: subtle floating animation for the main card (nice touch) */
+@media (prefers-reduced-motion: no-preference) {
+  .gameCard {
+    animation: fadeInUp .6s ease both, floaty 8s ease-in-out infinite;
+  }
+  @keyframes floaty {
+    0%, 100% { transform: translateY(0) }
+    50% { transform: translateY(-3px) }
+  }
+}

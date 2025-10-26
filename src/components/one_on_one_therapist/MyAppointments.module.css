@@ -1,0 +1,164 @@
+:root {
+  --ink: #004c54;
+  --ink2: #005b63;
+  --muted: #6f8c8e;
+  --muted2: #4a6c6e;
+  --accentA: #007991;
+  --accentB: #78ffd6;
+  --radius: 16px;
+
+  --ok-bg: rgba(25,135,84,0.12);
+  --ok-bd: rgba(25,135,84,0.2);
+  --ok-fg: #1f6f4a;
+
+  --warn-bg: rgba(255,193,7,0.12);
+  --warn-bd: rgba(255,193,7,0.25);
+  --warn-fg: #7a5a08;
+
+  --muted-bg: rgba(108,117,125,0.12);
+  --muted-bd: rgba(108,117,125,0.2);
+  --muted-fg: #4f5a61;
+
+  --info-bg: rgba(0,121,145,0.12);
+  --info-bd: rgba(0,121,145,0.25);
+  --info-fg: #005b63;
+}
+
+/* Layout */
+.container {
+  padding: 1.25rem;
+  padding-top: 6rem;
+  max-width: 1024px;
+}
+
+.loadingWrap {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e8f9f8 0%, #ffffff 100%);
+}
+
+/* Headers */
+.heading {
+  margin: 0;
+  font-weight: 800;
+  color: var(--ink);
+}
+.subheading {
+  margin: 0.15rem 0 0.4rem 0;
+  color: var(--muted);
+}
+
+/* Pills & status */
+.pill {
+  border-radius: 999px;
+  border: 1px solid rgba(0, 121, 145, 0.25);
+  padding: 0.2rem 0.6rem;
+  background: linear-gradient(90deg, rgba(0,121,145,0.08), rgba(120,255,214,0.08));
+  color: var(--ink2);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.statusPill {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  text-transform: capitalize;
+  font-size: 0.85rem;
+}
+.badgeOk   { background: var(--ok-bg);   color: var(--ok-fg);   border-color: var(--ok-bd); }
+.badgeWarn { background: var(--warn-bg); color: var(--warn-fg); border-color: var(--warn-bd); }
+.badgeMuted{ background: var(--muted-bg);color: var(--muted-fg);border-color: var(--muted-bd); }
+.badgeInfo { background: var(--info-bg); color: var(--info-fg); border-color: var(--info-bd); }
+
+/* Table */
+.tableWrap { overflow: auto; }
+.table {
+  margin: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 12px 36px rgba(0, 121, 145, 0.12);
+}
+.table thead th {
+  background: linear-gradient(90deg, rgba(0,121,145,0.05), rgba(120,255,214,0.05));
+  color: var(--ink);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.table tbody tr:hover {
+  background: rgba(0,121,145,0.03);
+}
+
+/* When cell */
+.whenLocal { font-weight: 700; color: var(--ink2); }
+.whenUtc   { color: var(--muted2); font-size: 0.9rem; }
+
+/* Buttons */
+.button {
+  background: linear-gradient(90deg, var(--accentA), var(--accentB)) !important;
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 0.5rem 0.9rem !important;
+  font-weight: 700 !important;
+  color: #083b3f !important;
+}
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 121, 145, 0.25);
+}
+.outlineBtn {
+  border-radius: 12px !important;
+  border: 1px solid rgba(0,121,145,0.35) !important;
+  background: transparent !important;
+  color: var(--ink2) !important;
+  font-weight: 700 !important;
+}
+.outlineBtn:hover { background: rgba(0,121,145,0.06) !important; }
+
+.outlineDanger {
+  border-radius: 12px !important;
+  border: 1px solid rgba(220,53,69,0.35) !important;
+  color: #8b2b33 !important;
+  background: transparent !important;
+  font-weight: 700 !important;
+}
+.outlineDanger:hover { background: rgba(220,53,69,0.06) !important; }
+
+/* Empty state */
+.emptyCard {
+  border-radius: var(--radius);
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 12px 36px rgba(0, 121, 145, 0.12);
+}
+
+/* Modal styling */
+.dialog { max-width: 820px; }
+.modal {
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 16px 48px rgba(0, 121, 145, 0.18);
+  background: #fff;
+}
+.modalHeader {
+  background: linear-gradient(90deg, rgba(0,121,145,0.08), rgba(120,255,214,0.08));
+  border-bottom: 1px solid rgba(0,121,145,0.15);
+}
+.modalTitle { color: var(--ink); font-weight: 800; }
+.modalBody { padding-top: 0.75rem; }
+.modalFooter { background: #fff; }
+
+.metaGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.35rem 1rem;
+}
+
+.pre {
+  white-space: pre-wrap;
+  color: #2c2c2c;
+}

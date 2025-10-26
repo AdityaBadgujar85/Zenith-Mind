@@ -1,0 +1,174 @@
+/* Main container */
+.memoryGameContainer {
+  background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+  min-height: 100vh;
+  padding: 1.5rem;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title */
+.title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  margin-bottom: 0.5rem;
+}
+
+/* Moves + matched */
+.movesMatched {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  background: none !important;
+  box-shadow: none;
+  margin-top: 0.5rem;
+}
+
+/* Header row */
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;        
+  padding: 1rem 2rem; 
+  flex-wrap: wrap; /* allow wrap on small screens */
+}
+
+.left, .center, .right {
+  flex: 1;
+  text-align: center;
+}
+
+.left { text-align: left; }
+.right { text-align: right; }
+
+/* Card option buttons */
+.cardOptions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* wrap on mobile */
+  gap: 0.6rem;
+}
+
+.cardOptions button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.cardOptions button:hover {
+  background: #45a049;
+}
+
+/* Game grid */
+.cardsGrid {
+  display: grid;
+  gap: 0.8rem;
+  width: 100%;
+  margin-top: 1.5rem;
+grid-template-columns: repeat(10, 1fr);
+  justify-items: center;
+}
+
+/* Placeholder for matched cards */
+.invisibleCard {
+  width: 100%;
+  padding-bottom: 100%;
+  visibility: hidden;
+}
+
+/* Card styling */
+.card {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* square */
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.cardInner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flipped .cardInner {
+  transform: rotateY(180deg);
+}
+
+/* Front and back */
+.cardFront,
+.cardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  backface-visibility: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.cardFront {
+  background: #90a4ae;
+}
+
+.cardBack {
+  background: #fff;
+  transform: rotateY(180deg);
+}
+
+/* Tablet adjustments */
+@media (max-width: 992px) {
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .cardFront,
+  .cardBack {
+    font-size: 1.8rem;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .headerRow {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .cardsGrid {
+    grid-template-columns: repeat(4, 1fr); /* fixed 4 columns on phones */
+    gap: 0.5rem;
+  }
+
+  .cardFront,
+  .cardBack {
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .movesMatched {
+    font-size: 0.9rem;
+  }
+}

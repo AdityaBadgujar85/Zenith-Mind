@@ -1,0 +1,128 @@
+/* Match the AdminDashboard.module.css aesthetic */
+:root {
+  --ink: #004c54;
+  --ink-2: #005b63;
+  --muted: #6f8c8e;
+  --muted-2: #4a6c6e;
+  --accentA: #007991;     /* same gradient start */
+  --accentB: #78ffd6;     /* same gradient end */
+  --ok-bg: rgba(25,135,84,0.12);
+  --ok-bd: rgba(25,135,84,0.2);
+  --radius: 16px;
+}
+
+.dialog {
+  max-width: 720px;
+}
+
+.modal {
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 16px 48px rgba(0, 121, 145, 0.18);
+  background: linear-gradient(135deg, #e8f9f8 0%, #ffffff 100%);
+}
+
+.header {
+  background: linear-gradient(90deg, rgba(0,121,145,0.08), rgba(120,255,214,0.08));
+  border-bottom: 1px solid rgba(0,121,145,0.15);
+}
+
+.title {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.body {
+  padding-top: 1rem;
+}
+
+.appointMeta {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.pill {
+  border-radius: 999px;
+  border: 1px solid rgba(0, 121, 145, 0.25);
+  padding: 0.2rem 0.55rem;
+  background: linear-gradient(90deg, rgba(0,121,145,0.08), rgba(120,255,214,0.08));
+  color: var(--ink-2);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.secondary {
+  background: rgba(0,0,0,0.04);
+  border-color: rgba(0,0,0,0.08);
+  color: #2c2c2c;
+}
+
+.group {
+  margin-top: 0.5rem;
+}
+
+.label {
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.35rem;
+}
+
+.counter {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.textarea {
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  padding: 0.75rem 0.9rem;
+  resize: vertical;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+  background: #ffffffcc;
+  backdrop-filter: blur(2px);
+}
+
+.textarea:focus {
+  border-color: var(--accentA);
+  box-shadow: 0 0 0 0.25rem rgba(0, 121, 145, 0.15);
+}
+
+.help {
+  display: block;
+  margin-top: 0.4rem;
+  color: var(--muted-2);
+}
+
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  background: #fff;
+}
+
+.button {
+  background: linear-gradient(90deg, var(--accentA), var(--accentB));
+  border: none !important;
+  border-radius: 12px;
+  padding: 0.5rem 0.9rem;
+  font-weight: 700;
+  color: #083b3f;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 121, 145, 0.25);
+}
+
+.outlineBtn {
+  border-radius: 12px !important;
+  border: 1px solid rgba(0,121,145,0.35) !important;
+  background: transparent !important;
+  color: var(--ink-2) !important;
+  font-weight: 700 !important;
+}
+
+.outlineBtn:hover {
+  background: rgba(0,121,145,0.06) !important;
+}

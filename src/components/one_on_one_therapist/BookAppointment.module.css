@@ -1,0 +1,122 @@
+:root {
+  --ink: #004c54;
+  --ink2: #005b63;
+  --muted: #6f8c8e;
+  --muted2: #4a6c6e;
+  --accentA: #007991;
+  --accentB: #78ffd6;
+  --radius: 16px;
+}
+
+/* Layout */
+.container {
+  padding: 1.25rem;
+  padding-top: 6rem;
+  max-width: 820px;
+}
+
+.loadingWrap {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e8f9f8 0%, #ffffff 100%);
+}
+
+/* Headers */
+.heading {
+  margin: 0;
+  font-weight: 800;
+  color: var(--ink);
+}
+.subheading {
+  margin: 0.15rem 0 0.4rem 0;
+  color: var(--muted);
+}
+.emph {
+  font-weight: 700;
+  color: var(--ink2);
+}
+
+/* Pills */
+.pill {
+  border-radius: 999px;
+  border: 1px solid rgba(0, 121, 145, 0.25);
+  padding: 0.2rem 0.6rem;
+  background: linear-gradient(90deg, rgba(0,121,145,0.08), rgba(120,255,214,0.08));
+  color: var(--ink2);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+/* Card */
+.card {
+  border-radius: var(--radius);
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 14px 40px rgba(0, 121, 145, 0.15);
+  overflow: hidden;
+  background: #fff;
+}
+.cardBody {
+  padding: 1.1rem 1rem 1.25rem 1rem;
+}
+
+/* Form */
+.label {
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.35rem;
+}
+.input, .textarea, select.form-select {
+  border-radius: 12px !important;
+  padding: 0.55rem 0.8rem !important;
+  border: 1px solid #e0e0e0 !important;
+  background: #ffffffcc !important;
+  backdrop-filter: blur(1px);
+  transition: box-shadow 0.15s ease, border-color 0.15s ease !important;
+}
+.input:focus,
+.textarea:focus,
+select.form-select:focus {
+  border-color: var(--accentA) !important;
+  box-shadow: 0 0 0 0.25rem rgba(0, 121, 145, 0.15) !important;
+}
+.textarea {
+  resize: vertical;
+}
+.help {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--muted2);
+}
+
+/* Buttons */
+.button {
+  background: linear-gradient(90deg, var(--accentA), var(--accentB)) !important;
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 0.55rem 0.9rem !important;
+  font-weight: 700 !important;
+  color: #083b3f !important;
+}
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 121, 145, 0.25);
+}
+.outlineBtn {
+  border-radius: 12px !important;
+  border: 1px solid rgba(0,121,145,0.35) !important;
+  background: transparent !important;
+  color: var(--ink2) !important;
+  font-weight: 700 !important;
+}
+.outlineBtn:hover {
+  background: rgba(0,121,145,0.06) !important;
+}
+
+/* Success state */
+.success {
+  border: 1px solid rgba(25,135,84,0.25);
+  background: rgba(25,135,84,0.08);
+  color: #1f6f4a;
+}

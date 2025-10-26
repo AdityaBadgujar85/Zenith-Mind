@@ -1,0 +1,31 @@
+.mainContainer {
+  padding-top: 6rem;
+  background: linear-gradient(145deg, #f5f8fb, #e9f3f4);
+  min-height: 80vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.ImageDesign {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.ImageDesign:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 121, 145, 0.25);
+  filter: brightness(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ImageDesign {
+    margin-bottom: 1.5rem;
+  }
+}

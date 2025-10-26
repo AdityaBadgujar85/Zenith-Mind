@@ -1,0 +1,133 @@
+.pageWrapper {
+  background: linear-gradient(135deg, #e8f5e9, #f1f8ff);
+  min-height: 100vh;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #2e3a59;
+}
+
+.subtitle {
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+.quoteCard {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.quoteCard:hover {
+  transform: translateY(-3px);
+}
+
+.quoteText {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #374151;
+  margin-bottom: 1rem;
+}
+
+.quoteAuthor {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.nextBtn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: 0.3s ease;
+}
+
+.nextBtn:hover {
+  background-color: #43a047;
+}
+
+.iconBtn {
+  background-color: white;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  color: #4b5563;
+  padding: 6px 10px;
+  transition: all 0.3s ease;
+}
+
+.iconBtn:hover {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.favActive {
+  color: #e11d48 !important;
+  background-color: #fee2e2 !important;
+  border-color: #fca5a5 !important;
+}
+
+.favoritesCard {
+  background: #ffffff;
+  border-radius: 20px;
+  margin-top: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+}
+
+.favTitle {
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 1rem;
+}
+
+.favList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.favItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9fafb;
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.removeBtn {
+  border: none;
+  color: #ef4444;
+  background: transparent;
+}
+
+.removeBtn:hover {
+  background: #fee2e2;
+}

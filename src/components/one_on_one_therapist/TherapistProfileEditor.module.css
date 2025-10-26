@@ -1,0 +1,73 @@
+:root{
+  --ink:#004c54; --ink2:#005b63; --muted:#6f8c8e; --muted2:#4a6c6e;
+  --accentA:#007991; --accentB:#78ffd6; --radius:16px;
+
+  --ok-bg:rgba(25,135,84,.12); --ok-bd:rgba(25,135,84,.2); --ok-fg:#1f6f4a;
+}
+
+/* Layout */
+.container{ padding:1.25rem; padding-top:6rem; max-width:860px; }
+.loadingWrap{
+  min-height:20vh; display:flex; align-items:center; justify-content:center;
+}
+
+/* Headings */
+.heading{ margin:0 0 .25rem 0; font-weight:800; color:var(--ink); }
+.subheading{ margin:0 0 .75rem 0; color:var(--muted); }
+.blockTitle{ margin:.25rem 0 .5rem 0; font-size:1.05rem; font-weight:800; color:var(--ink); }
+
+/* Card */
+.card{
+  border-radius:var(--radius);
+  border:1px solid rgba(0,0,0,.06);
+  box-shadow:0 14px 40px rgba(0,121,145,.12);
+  overflow:hidden; background:#fff;
+}
+.cardBody{ padding:1rem 1rem 1.1rem 1rem; }
+
+/* Form */
+.label{ font-weight:700; color:var(--ink); margin-bottom:.35rem; }
+.input, .textarea, select.form-select{
+  border-radius:12px !important; padding:.55rem .8rem !important;
+  border:1px solid #e0e0e0 !important; background:#ffffffcc !important; backdrop-filter:blur(1px);
+  transition:box-shadow .15s ease,border-color .15s ease !important;
+}
+.input:focus, .textarea:focus, select.form-select:focus{
+  border-color:var(--accentA) !important; box-shadow:0 0 0 .25rem rgba(0,121,145,.15) !important;
+}
+.textarea{ resize:vertical; }
+.help{ display:block; margin-top:.35rem; color:var(--muted2); }
+
+/* Buttons */
+.button{
+  background:linear-gradient(90deg,var(--accentA),var(--accentB)) !important;
+  border:none !important; border-radius:12px !important;
+  padding:.5rem .9rem !important; font-weight:700 !important; color:#083b3f !important;
+}
+.button:hover{ transform:translateY(-1px); box-shadow:0 6px 16px rgba(0,121,145,.25); }
+
+.outlineDanger{
+  border-radius:12px !important; border:1px solid rgba(220,53,69,.35) !important;
+  color:#8b2b33 !important; background:transparent !important; font-weight:700 !important;
+}
+.outlineDanger:hover{ background:rgba(220,53,69,.06) !important; }
+
+/* Availability */
+.availGrid{
+  display:grid; gap:12px;
+  grid-template-columns:1fr; /* stack on mobile */
+}
+@media (min-width: 820px){
+  .availGrid{ grid-template-columns:1fr 1fr; }
+}
+.dayCard{ margin-bottom:0 !important; }
+.dayHeader{ display:flex; justify-content:space-between; align-items:center; margin-bottom:.5rem; }
+.dayTitle{ text-transform:uppercase; letter-spacing:.5px; color:var(--ink2); }
+.smallMuted{ color:var(--muted2); font-size:.9rem; }
+
+/* Alerts */
+.success{
+  border:1px solid rgba(25,135,84,.25);
+  background:rgba(25,135,84,.08);
+  color:var(--ok-fg);
+}

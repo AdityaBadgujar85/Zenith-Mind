@@ -1,0 +1,118 @@
+/* SequenceTap.module.css */
+
+/* ==== COLOR BUTTONS ==== */
+.colorButton {
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  opacity: 0.9;
+  min-width: 120px;
+  min-height: 120px;
+  margin: 12px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(6px);
+}
+
+.colorButton:active {
+  transform: scale(0.9);
+}
+
+.colorButton.active,
+.colorButton:hover {
+  opacity: 1;
+  transform: scale(1.08);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.7);
+}
+
+/* ==== COLORS ==== */
+.red { background: linear-gradient(145deg, #ff5f6d, #e74c3c); }
+.orange { background: linear-gradient(145deg, #ff9a44, #e67e22); }
+.yellow { background: linear-gradient(145deg, #f9d423, #f1c40f); }
+.green { background: linear-gradient(145deg, #56ab2f, #2ecc71); }
+.teal { background: linear-gradient(145deg, #1dd1a1, #1abc9c); }
+.blue { background: linear-gradient(145deg, #45aaf2, #3498db); }
+.indigo { background: linear-gradient(145deg, #3c40c6, #34495e); }
+.purple { background: linear-gradient(145deg, #a29bfe, #9b59b6); }
+
+/* ==== WRONG FLASH ==== */
+.allFlash {
+  animation: allFlash 0.5s ease-in-out;
+}
+@keyframes allFlash {
+  0% { transform: scale(1); filter: brightness(1); }
+  25% { transform: scale(1.1); filter: brightness(1.5); }
+  50% { transform: scale(0.95); filter: brightness(0.8); }
+  100% { transform: scale(1); filter: brightness(1); }
+}
+
+/* ==== PAGE CONTAINER ==== */
+.container-fluid {
+  background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
+  min-height: 100vh;
+  padding: 2rem 0;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* ==== HEADER ==== */
+h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #2d3436;
+  margin-bottom: 0.75rem;
+}
+
+.text-center h5 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #636e72;
+}
+
+.text-center p {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #636e72;
+}
+
+/* ==== LIST ==== */
+.list-unstyled {
+  text-align: left;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  color: #2d3436;
+  font-size: 1rem;
+}
+
+/* ==== BUTTONS ==== */
+.btn {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  padding: 10px 18px;
+  background: linear-gradient(145deg, #74b9ff, #0984e3);
+  border: none;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background: linear-gradient(145deg, #0984e3, #74b9ff);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* ==== GRID ALIGNMENT ==== */
+.my-custom-col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}

@@ -1,0 +1,48 @@
+.page {
+  padding: 12px 0 48px;
+  background: linear-gradient(135deg, #e8f9f8 0%, #ffffff 100%);
+}
+
+.title {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  margin: 0;
+}
+
+.card {
+  border: 1px solid #f1f3f5 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+}
+
+/* Charts */
+.cardSvg {
+  display: block;
+}
+
+.chartWrap {
+  position: relative;
+}
+
+/* Tooltip for 14-day trend */
+.tooltip {
+  position: absolute;
+  transform: translate(-50%, -120%);
+  background: #212529;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: 0 6px 20px rgba(33,37,41,0.25);
+}
+
+/* Donut */
+.donut text {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans";
+}

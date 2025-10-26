@@ -1,0 +1,69 @@
+.contactContainer {
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+    background: linear-gradient(135deg, #e8f9f8 0%, #ffffff 100%);
+  font-family: "Poppins", sans-serif;
+  min-height: 80vh;
+}
+
+.contactCard {
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  background: #fff;
+}
+
+.contactTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #007991;
+  margin-bottom: 0.5rem;
+}
+
+.contactSubtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.submitBtn {
+  background: linear-gradient(90deg, #007991, #78ffd6);
+  border: none;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.submitBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 121, 145, 0.3);
+}
+
+.contactInfoCol {
+  margin-top: 2rem;
+}
+
+.contactInfo h5 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.contactInfo p {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.mapContainer {
+  margin-top: 1rem;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contactInfoCol {
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,96 @@
+.dashboard {
+padding: 1.25rem 1.25rem 1.1rem 1.25rem;
+padding-top: 6rem;
+}
+
+
+.statCard { min-height: 132px; }
+.statTitle { font-size: 0.9rem; color: #4a6c6e; }
+.statValue { font-size: 2rem; font-weight: 800; color: #005b63; line-height: 1.1; }
+.statSub { font-size: 0.85rem; color: #6f8c8e; }
+
+
+.pill {
+border-radius: 999px;
+border: 1px solid rgba(0, 121, 145, 0.25);
+padding: 0.25rem 0.6rem;
+background: linear-gradient(90deg, rgba(0,121,145,0.08), rgba(120,255,214,0.08));
+color: #005b63;
+font-weight: 600;
+}
+
+
+.blockTitle {
+font-size: 1.1rem;
+font-weight: 700;
+color: #004c54;
+margin: 0;
+}
+
+
+.flag {
+border-radius: 12px;
+padding: 0.35rem 0.7rem;
+font-weight: 600;
+border: 1px solid transparent;
+}
+.flagOn { background: rgba(0,121,145,0.12); color: #005b63; border-color: rgba(0,121,145,0.2); }
+.flagOff { background: rgba(220,53,69,0.08); color: #8b2b33; border-color: rgba(220,53,69,0.2); }
+
+
+.input {
+border-radius: 12px;
+padding: 0.5rem 0.8rem;
+border: 1px solid #e0e0e0;
+}
+.input:focus { border-color: #007991; box-shadow: 0 0 10px rgba(0, 121, 145, 0.3); }
+
+
+.tableWrap { overflow: auto; }
+.table { margin: 0; }
+
+
+.ok { background: rgba(25,135,84,0.12); color: #1f6f4a; border: 1px solid rgba(25,135,84,0.2); }
+.warn { background: rgba(255,193,7,0.12); color: #7a5a08; border: 1px solid rgba(255,193,7,0.25); }
+.muted { background: rgba(108,117,125,0.12); color: #4f5a61; border: 1px solid rgba(108,117,125,0.2); }
+
+
+.rolePill {
+border-radius: 999px;
+padding: 0.2rem 0.6rem;
+font-weight: 700;
+border: 1px solid rgba(0,0,0,0.05);
+text-transform: capitalize;
+}
+.role_user { background: rgba(0,121,145,0.08); color: #005b63; }
+.role_therapist { background: rgba(120, 255, 214, 0.15); color: #006e61; }
+.role_admin { background: rgba(0, 0, 0, 0.06); color: #2c2c2c; }
+
+
+.button {
+background: linear-gradient(90deg, #007991, #78ffd6);
+border: none;
+border-radius: 12px;
+padding: 0.5rem 0.8rem;
+font-weight: 600;
+}
+.button:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(0, 121, 145, 0.25); }
+
+
+.outlineBtn {
+border-radius: 12px;
+border: 1px solid rgba(0,121,145,0.35) !important;
+background: transparent !important;
+color: #005b63 !important;
+font-weight: 600;
+}
+.outlineBtn:hover { background: rgba(0,121,145,0.06) !important; }
+
+
+.loadingWrap {
+min-height: 70vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(135deg, #e8f9f8 0%, #ffffff 100%);
+}

@@ -1,0 +1,161 @@
+/* ===== Base Navbar Container ===== */
+.Navbar-Design {
+  background: rgba(255, 255, 255);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+  
+}
+
+/* Accent gradient bar (top) */
+.Navbar-Design::before {
+  width: 100%;
+}
+
+/* ===== Brand / Logo ===== */
+.Navbar-Brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 0.6px;
+  background: linear-gradient(90deg, #007991, #78ffd6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  font-family: 'Arizonia';
+  font-style: normal;
+  font-weight: 900;
+}
+
+.Navbar-Brand:hover {
+  transform: scale(1.03);
+  opacity: 0.95;
+}
+
+/* ===== Navigation Links ===== */
+.Navlink-text {
+  font-family: "Inter", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #2f3e46 !important;
+  margin-left: 1.6rem;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-family: 'Story Script';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Navlink-text:hover {
+  color: #007991 !important;
+}
+
+/* Underline animation on hover */
+.Navlink-text::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #007991, #78ffd6);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.Navlink-text:hover::after {
+  width: 100%;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 992px) {
+  .Navbar-Design {
+    background: rgba(255, 255, 255, 0.95);
+  }
+
+  .Navlink-text {
+    display: block;
+    margin: 0.8rem 0;
+  }
+}
+/* User Icon styling */
+/* User Icon styling */
+.UserIcon {
+  background: transparent !important;
+  border: none !important;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.UserIcon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* User Icon */
+.UserIcon {
+  background: transparent !important;
+  border: none !important;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.UserIcon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Dropdown menu */
+.UserDropdown {
+  min-width: 220px;
+  padding: 0.5rem 0;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* User info container */
+.UserInfo {
+  padding: 0.8rem 1rem;
+  line-height: 1.3;
+  color: #2f3e46;
+  display: flex;
+  flex-direction: column;
+  gap: 2px; /* spacing between name and email */
+}
+
+.UserName {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.UserEmail {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+/* Adjust divider */
+.UserDropdown .dropdown-divider {
+  margin: 0.6rem 0;
+}
+
+/* Dropdown items padding */
+.UserDropdown .dropdown-item {
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  color: #2f3e46;
+}
+
+.UserDropdown .dropdown-item:hover {
+  background: linear-gradient(90deg, #007991, #78ffd6);
+  color: #fff;
+  border-radius: 8px;
+}
+
+

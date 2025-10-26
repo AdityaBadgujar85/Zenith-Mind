@@ -1,0 +1,91 @@
+.signupContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e8f9f8 0%, #ffffff 100%);
+  font-family: "Poppins", sans-serif;
+  padding-top: 6rem;
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease;
+  background: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.cardBody {
+  padding: 2rem;
+}
+
+.title {
+  font-family: "Arizonia", cursive;
+  font-size: 3rem;
+  font-weight: 900;
+  background: linear-gradient(90deg, #007991, #78ffd6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #6f6f6f;
+  margin-bottom: 1.8rem;
+}
+
+.input {
+  border-radius: 12px;
+  padding: 0.6rem 1rem;
+  border: 1px solid #e0e0e0;
+}
+
+.input:focus {
+  border-color: #007991;
+  box-shadow: 0 0 10px rgba(0, 121, 145, 0.3);
+}
+
+.checkBox {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.link {
+  color: #007991;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #78ffd6;
+}
+
+.button {
+  background: linear-gradient(90deg, #007991, #78ffd6);
+  border: none;
+  border-radius: 12px;
+  padding: 0.6rem;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 121, 145, 0.3);
+}
+
+.loginRedirect {
+  text-align: center;
+  margin-top: 1rem;
+  color: #707070;
+}

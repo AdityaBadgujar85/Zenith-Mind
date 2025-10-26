@@ -1,0 +1,348 @@
+/* ===== Specialist Nutrition — clean admin-like look ===== */
+
+.nutrition {
+  padding: 24px 0;
+  background: #fbfcfe;
+  --border: #e8eef4;
+  --text: #0f172a;
+  --muted: #657086;
+  --muted-2: #9aa4b2;
+  --card-bg: #ffffff;
+  --ok: #12b886;
+  --warn: #ffb703;
+  --teal-1: #007991;
+  --teal-2: #78ffd6;
+  --shadow: 0 1px 0 rgba(15, 23, 42, 0.02), 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.nutrition * { box-sizing: border-box; }
+
+/* ----- Page titles ----- */
+.pageTitle { font-weight: 800; color: var(--text); margin: 0 0 4px; letter-spacing: .1px; }
+.pageSub   { color: var(--muted); margin: 0; }
+
+/* ----- Cards ----- */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+.cardHeader {
+  background: #f8fafc;
+  border-bottom: 1px solid var(--border);
+  font-weight: 700;
+  color: var(--text);
+}
+.cardFooterNote {
+  background: #fafafa;
+  font-size: 12px;
+  color: #6b7280;
+  border-top: 1px solid var(--border);
+}
+
+/* Sticky header inside the catalog card (keeps search visible) */
+.stickyHeader { position: sticky; top: 0; z-index: 2; }
+
+/* =========================
+   Buttons (GLOBAL, unified teal)
+   ========================= */
+.btnPrimary {
+  background: linear-gradient(90deg, var(--teal-1), var(--teal-2)) !important;
+  color: #032b2f !important;
+  border: none !important;
+  border-radius: 12px;
+  padding: 8px 14px;
+  font-weight: 700;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.btnPrimary:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(0,121,145,0.25); }
+.btnPrimary:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(0,121,145,.25); }
+
+.btnOutline {
+  background: transparent !important;
+  color: #005b63 !important;
+  border: 1px solid rgba(0,121,145,0.35) !important;
+  border-radius: 12px;
+  padding: 8px 14px;
+  font-weight: 700;
+}
+.btnOutline:hover { background: rgba(0,121,145,0.06) !important; }
+.btnOutline:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(0,121,145,.22); }
+
+/* ----- Inputs & selects (Bootstrap overrides) ----- */
+.input, :global(.form-control), :global(.form-select) {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: none !important;
+}
+:global(.form-control:focus), :global(.form-select:focus) {
+  border-color: #98e2d9;
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(13,148,136,.08);
+}
+
+/* ----- Range controls row ----- */
+.rangeCard { display: flex; flex-wrap: wrap; align-items: end; gap: 16px; }
+.rangeActions { margin-left: auto; display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* ----- Pills/badges (used for remaining macros) ----- */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  height: 28px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(0,121,145,0.08), rgba(120,255,214,0.08));
+  color: #005b63;
+  font-weight: 700;
+  font-size: 12px;
+  border: 1px solid rgba(0, 121, 145, 0.25);
+}
+
+/* Make Bootstrap success/secondary badges feel like pills */
+:global(.badge.bg-success) {
+  background: #e9fbf5 !important;
+  color: #0b7d60 !important;
+  border: 1px solid #d8f6ec !important;
+  border-radius: 999px !important;
+  font-weight: 700;
+}
+:global(.badge.bg-secondary) {
+  background: #f3f6fb !important;
+  color: var(--muted) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 999px !important;
+  font-weight: 700;
+}
+
+/* ----- Avatar in user card ----- */
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #eef2ff;
+  color: #3730a3;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  letter-spacing: .5px;
+}
+
+/* ----- Metric tiles (steps, energy, sleep, HR) ----- */
+.metricCard {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+.metricLabel { font-size: 12px; color: #6b7280; }
+.metricValue { font-weight: 700; }
+
+/* ----- Donut (ring) ----- */
+.donut { width: 120px; height: 120px; }
+.donutTrack { fill: none; stroke: #eef2f7; }
+.donutFill {
+  fill: none;
+  stroke: var(--teal-1);
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 70px 70px;
+}
+.donutValue { font-size: 20px; font-weight: 800; fill: var(--text); }
+.donutLabel { font-size: 11px; fill: #6b7280; }
+
+/* ----- Catalog scroll ----- */
+.foodScrollBody { max-height: 70vh; overflow: auto; padding-top: 12px; }
+.catalogSearch { min-width: 320px; }
+
+/* Card grid for food catalog */
+.foodGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (max-width: 1200px) { .foodGrid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 768px)  { .foodGrid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px)  { .foodGrid { grid-template-columns: 1fr; } }
+
+/* Food cards */
+.foodCard {
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+  transition: transform .15s ease, box-shadow .15s ease;
+  background: #fff;
+}
+.foodCard:hover { transform: translateY(-2px); box-shadow: 0 10px 22px rgba(0,0,0,0.1); }
+.foodImgWrap { position: relative; width: 100%; aspect-ratio: 16/10; overflow: hidden; }
+.foodImg     { width: 100%; height: 100%; object-fit: cover; }
+.kcalBadge {
+  position: absolute; right: 10px; bottom: 10px;
+  background: rgba(255,255,255,0.9);
+  border: 1px solid rgba(0,0,0,0.1);
+  font-weight: 600; font-size: 12px;
+  padding: 4px 8px; border-radius: 999px;
+}
+.foodBody  { padding: 10px 12px 12px 12px; }
+.foodTitle { font-weight: 600; font-size: 14px; line-height: 1.25; min-height: 36px; }
+.foodMacros{ color: #6b7280; font-size: 12px; margin: 6px 0 10px 0; }
+
+/* ----- Recipe box + actions (AI Meal Recommendation) ----- */
+.recipeBox {
+  background: #fbfbff;
+  border: 1px solid var(--border) !important;
+  border-radius: 12px;
+}
+.recipeActions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+/* =========================
+   Dashboard polish (teal)
+   ========================= */
+.dashboard {
+  padding: 1.25rem 1.25rem 1.1rem 1.25rem;
+  padding-top: 6rem;
+  background: linear-gradient(135deg, #e8f9f8 0%, #ffffff 100%);
+  border-radius: 14px;
+  border: 1px solid var(--border, #e0edef);
+  box-shadow: 0 1px 0 rgba(15, 23, 42, 0.02), 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+.statCard {
+  min-height: 132px;
+  border: 1px solid rgba(0, 121, 145, 0.18);
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 6px 16px rgba(0, 121, 145, 0.06);
+  padding: 0.9rem 1rem;
+}
+.statTitle { font-size: 0.9rem; color: #4a6c6e; }
+.statValue { font-size: 2rem; font-weight: 800; color: #005b63; line-height: 1.1; }
+.statSub   { font-size: 0.85rem; color: #6f8c8e; }
+
+.blockTitle { font-size: 1.1rem; font-weight: 700; color: #004c54; margin: 0; }
+
+/* Flags / roles (kept from your spec) */
+.flag { border-radius: 12px; padding: 0.35rem 0.7rem; font-weight: 600; border: 1px solid transparent; }
+.flagOn  { background: rgba(0,121,145,0.12); color: #005b63; border-color: rgba(0,121,145,0.2); }
+.flagOff { background: rgba(220,53,69,0.08); color: #8b2b33; border-color: rgba(220,53,69,0.2); }
+
+.rolePill { border-radius: 999px; padding: 0.2rem 0.6rem; font-weight: 700; border: 1px solid rgba(0,0,0,0.05); text-transform: capitalize; }
+.role_user { background: rgba(0,121,145,0.08); color: #005b63; }
+.role_therapist { background: rgba(120, 255, 214, 0.15); color: #006e61; }
+.role_admin { background: rgba(0, 0, 0, 0.06); color: #2c2c2c; }
+
+/* Table wrappers */
+.tableWrap { overflow: auto; }
+.table { margin: 0; }
+
+/* Loading block */
+.loadingWrap {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e8f9f8 0%, #ffffff 100%);
+}
+
+/* =========================
+   Recipe (clean layout)
+   ========================= */
+.recipeWrap {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+  padding: 14px 16px;
+}
+.recipeHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 16px;
+  justify-content: space-between;
+  border-bottom: 1px dashed var(--border);
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+.recipeTitle {
+  margin: 0;
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: .2px;
+}
+.recipeMacros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  font-size: 12px;
+  color: #4a6c6e;
+}
+.recipeMacros strong { color: #005b63; }
+
+.recipeGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 768px) { .recipeGrid { grid-template-columns: 1fr; } }
+
+.recipeSectionTitle {
+  font-weight: 700;
+  color: #004c54;
+  margin: 0 0 8px 0;
+  font-size: 0.95rem;
+}
+
+.ingredientList { margin: 0; padding: 0; list-style: none; }
+.ingredientRow {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px dotted rgba(0,0,0,0.06);
+}
+.ingredientRow:last-child { border-bottom: none; }
+
+.ingredientDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--teal-1);
+  display: inline-block;
+  transform: translateY(2px);
+}
+.ingredientText { color: #0f172a; }
+.ingredientQty  { color: #4a6c6e; }
+
+.stepList { margin: 0; padding-left: 1.2rem; }
+.stepItem {
+  padding: 6px 0;
+  color: #0f172a;
+  border-bottom: 1px dotted rgba(0,0,0,0.06);
+}
+.stepItem:last-child { border-bottom: none; }
+
+.recipeHint {
+  background: #fbfbff;
+  border: 1px dashed var(--border);
+  color: #657086;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+/* Optional dark mode */
+:global(.dark) .dashboard {
+  background: linear-gradient(135deg, #052e31 0%, #0b3d41 100%);
+  border-color: rgba(255,255,255,0.06);
+}
+:global(.dark) .statCard { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.08); }
+:global(.dark) .statTitle { color: #8fb9bc; }
+:global(.dark) .statValue { color: #b9f6ef; }
+:global(.dark) .statSub { color: #9aced0; }
