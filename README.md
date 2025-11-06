@@ -184,11 +184,6 @@ This is a **mental health** project — please be **kind, compassionate, and res
 
 ---
 
-## 📄 License
-**MIT License** *(Add `LICENSE` file if not already included.)*
-
----
-
 ## 💛 Credits
 
 - CBT structure inspired by publicly available therapeutic worksheets
